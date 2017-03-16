@@ -10,6 +10,17 @@
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Public Galeries</a></li>
                 <li><a href="#">Profile</a></li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Account
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Profile</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
