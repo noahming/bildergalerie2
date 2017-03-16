@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e978628-f607-4dda-9a4d-80851edebefe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/CSS/bootstrap-datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/CSS/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/CSS/mycss.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/CSS/mycss2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/JS/bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/JS/editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/JS/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/JS/onReady.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/archiv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/data/Blog.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/data/reset.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/dbc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/doc/Benutzerdokumentation.odt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/doc/Benutzerdokumentation.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/editrecord.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/myprofile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/newrecord.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/profile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/record.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/register.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/res/editor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/res/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/res/nav.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/res/steez_big.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/res/steez_middle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/res/steez_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sandro/users.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/header.php" afterPath="$PROJECT_DIR$/view/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,8 +20,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -65,6 +32,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/view/header.php" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -73,10 +47,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="-7" />
+    <option name="width" value="654" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -102,6 +75,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bildergalerie" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bildergalerie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bildergalerie" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bildergalerie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bildergalerie" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bildergalerie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bildergalerie" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -177,18 +200,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489669408584</updated>
-      <workItem from="1489669410014" duration="157000" />
+      <workItem from="1489669410014" duration="1105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157000" />
+    <option name="totallyTimeSpent" value="1105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <frame x="-7" y="0" width="654" height="991" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44043887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -228,8 +251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding />
         </state>
       </provider>

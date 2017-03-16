@@ -1,23 +1,16 @@
-
-<div class="navbar navbar-inverse">
-    <div class="navbar-inner">
-    <div class="container">
- 
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
- 
-      <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">Project name</a>
- 
-      <!-- Everything you want hidden at 940px or less, place within here -->
-      <div class="nav-collapse collapse">
-        <!-- .nav, .navbar-search, .navbar-form, etc -->
-      </div>
- 
+<meta charset='utf-8'>
+<link rel='stylesheet' href='css/bootstrap.css'/>
+<link rel='stylesheet' href='css/bootstrap-responsive.css'/>
+<script type='text/javascript' src='js/bootstrap.js'></script>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a class="brand" href="#">NoahsSuperSite</a>
+            <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Public Galeries</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </div>

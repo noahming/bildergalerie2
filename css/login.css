@@ -1,0 +1,90 @@
+#loginContainer {
+    display: inline-block;
+}
+
+#passwordContainer, #emailContainer, #passwordRepetitionContainer {
+    margin-bottom: 10px; /* Abstand zwischen den Inputfeldern */
+}
+
+/* Text der Inputfelder wird Zentriert angezeigt */
+#password, #email, #passwordRepetition {
+    text-align: center;
+}
+
+/* Höhe und Breite der Inputfelder */
+input {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+/* Aussehen der Meldungen */
+.validationError {
+    margin-top: 10px;
+    width: 300px;
+    color: red;
+    font-family: sans-serif;
+    display: none;
+}
+
+/* Hintergrundfarbe des Buttons "Anmelden" bei Seitenaufruf*/
+#btnHideRegistration {
+    background-color:  #eae672;
+}
+
+/* Hintergrundfarbe des Buttons "Registrieren" bei Seitenaufruf*/
+#btnHideLogin{
+    background-color: lightblue;
+}
+
+/* Formatierung der Buttons "Anmelden" und "Registrieren" */
+#btnHideLogin, #btnHideRegistration {
+    height: 50px;
+    width: 50%;
+    margin: 0;
+    float: left;
+    text-align: center;
+    border: none;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+
+.note {
+    color: #333;
+    position: relative;
+    margin: 0 auto;
+    font-family: arial;
+    font-size: 25px;
+    box-shadow: 0 3px 3px 0.5px rgba(0,0,0,0.3);
+}
+
+#btnLogin, #btnRegistration {
+    margin-top: 10px;
+
+}
+
+#message, #message2, #message3, #message4 {
+    margin-top: 10px;
+    width: 300px;
+    font-family: sans-serif;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 15pt;
+}
+
+.div_message {
+    width:200px;
+    height: 30px;
+    background-color: lightgreen;
+}
+.txt_message {
+    color: black;
+    text-decoration: none;
+    vertical-align: sub;
+}
+
+#registerForm{
+    display: none;
+}
