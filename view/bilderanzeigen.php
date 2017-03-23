@@ -20,7 +20,7 @@
                              
                             
                             
-                            echo '<a href="upload/'. $image['pfad'] . '.' . $image['endung'] . '" title="Caption Text" class="effect-2 effect-duration-1" style=""><img src="upload/'. $image['pfad'] . '.' . $image['endung'] . '" alt="" style="height: 200px" class="effect-2" style="width: auto; heigth: auto"></a>';
+                            echo '<a href="images/'. $image['pfad'] . '.' . $image['endung'] . '" title="Caption Text" class="effect-2 effect-duration-1" style=""><img src="images/'. $image['pfad'] . '.' . $image['endung'] . '" alt="" style="height: 200px" class="effect-2" style="width: auto; heigth: auto"></a>';
                         }
                     ?>
                         

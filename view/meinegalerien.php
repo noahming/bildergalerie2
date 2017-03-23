@@ -19,7 +19,7 @@
                     $gid = $_GET['gid'];
                         $images = select_images_by_gid($mysqli, $gid);
                         foreach ($images as $image) {                       
-                            echo '<a href="upload/'. $image['pfad'] . '.' . $image['endung'] . '" title="Caption Text" class="effect-2 effect-duration-1" style=""><img src="upload/'. $image['pfad'] . '.' . $image['endung'] . '" alt="" style="height: 200px" class="effect-2" style="width: auto; heigth: auto"></a>';
+                            echo '<a href="images/'. $image['pfad'] . '.' . $image['endung'] . '" title="Caption Text" class="effect-2 effect-duration-1" style=""><img src="images/'. $image['pfad'] . '.' . $image['endung'] . '" alt="" style="height: 200px" class="effect-2" style="width: auto; heigth: auto"></a>';
                         }
                     }
                     else{
@@ -33,7 +33,7 @@
                             <div id="galeryTitle">
                                   <a href="?gid='.$galerie['id'].'">'. $galerie['name'].'</a>
                                   <a href="?galerie&m=2&id='.$galerie['id'].'" title="Galerie bearbeiten" class="btn_editgalery"></a>
-                                  <a href="?upload&gid='.$galerie['id'].'" title="Bild hinzufügen" class="btn_addtogalery"></a>';
+                                  <a href="?images&gid='.$galerie['id'].'" title="Bild hinzufügen" class="btn_addtogalery"></a>';
 
                             
                             if($galerie['istPublik']){
@@ -46,7 +46,7 @@
                             if($images){
                             
                             foreach ($images as $image) {  
-                                echo '<a href="bildAnsicht.php?id='.$image['id'].'" title="Caption Text" class="effect-2 effect-duration-1" style=""><img href="bildAnsicht.php?" src="upload/'. $image['pfad'] . '.' . $image['endung'] . '" alt="" style="height: 200px" class="effect-2" style="width: auto; heigth: auto"></a>';
+                                echo '<a href="bildAnsicht.php?id='.$image['id'].'" title="Caption Text" class="effect-2 effect-duration-1" style=""><img href="bildAnsicht.php?" src="images/'. $image['pfad'] . '.' . $image['endung'] . '" alt="" style="height: 200px" class="effect-2" style="width: auto; heigth: auto"></a>';
                             }
                             echo '</div>';
                                     

@@ -15,7 +15,7 @@
         
 <div class="container">
 				<div class="justified">
-                    <button type="button" style="margin-bottom: 40px;" onclick="window.location.href = 'index.php?neuegalerie'">Galerie hinzufügen</button>
+                    <button type="button" style="margin-bottom: 40px;" onclick="window.location.href = '../index.php'">Galerie hinzufügen</button>
                     <?php 
                         $users = select_users($mysqli);
                         foreach ($users as $user){
@@ -30,7 +30,7 @@
                             echo '<div class="div_galcaption">';
                             echo '<a style="">'. $galerie['name'].'</a>';
                             echo '<a href="?galerie&m=2&id='.$galerie['id'].'" title="Galerie bearbeiten" class="btn_editgalery"></a>';
-                            echo '<a href="/?upload&gid='.$galerie['id'].'" title="Bild hinzufügen" class="btn_addtogalery"></a>';
+                            echo '<a href="/?images&gid='.$galerie['id'].'" title="Bild hinzufügen" class="btn_addtogalery"></a>';
                             if($galerie['istPublik']){
                                 echo '<a  class="icon_public" title="Öffentlich"></a>';
                             }
@@ -40,7 +40,7 @@
                             if($images){
                             
                             foreach ($images as $image) {  
-                                echo '<a href="upload/'. $image['pfad'] . '.' . $image['endung'] . '" title="Caption Text" class="effect-2 effect-duration-1" style=""><img src="upload/'. $image['pfad'] . '.' . $image['endung'] . '" alt="" style="height: 200px" class="effect-2" style="width: auto; heigth: auto"></a>';
+                                echo '<a href="images/'. $image['pfad'] . '.' . $image['endung'] . '" title="Caption Text" class="effect-2 effect-duration-1" style=""><img src="images/'. $image['pfad'] . '.' . $image['endung'] . '" alt="" style="height: 200px" class="effect-2" style="width: auto; heigth: auto"></a>';
                             }
                             echo '</div>';
                                     

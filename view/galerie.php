@@ -42,7 +42,7 @@
                     }
                         else {
                             $mod = false;
-                            echo '<form method="get" action="galerie_hinzufuegen.php">';
+                            echo '<form method="get" action="../galerie_hinzufuegen.php">';
                            echo '<h1>Galerie erstellen</h1>';                           
                         }
                         ?>

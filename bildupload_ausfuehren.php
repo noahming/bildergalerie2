@@ -11,7 +11,7 @@
     $type = $_FILES['img']['type'];
      $gid = $_POST['gid'];
 
-    $upload_folder = 'upload/'; //Das Upload-Verzeichnis
+    $upload_folder = 'images/'; //Das Upload-Verzeichnis
     $filename = pathinfo($_FILES['img']['name'], PATHINFO_FILENAME);
     $extension = strtolower(pathinfo($_FILES['img']['name'], PATHINFO_EXTENSION));
 
@@ -56,7 +56,7 @@
     insert_image($mysqli, $gid, $filename, $extension, $type, $descr);
      echo '<script type="text/javascript">
                     window.onload = function onload () {
-                    window.location.href="?upload&gid='.$gid.'&erfolgreich=true"
+                    window.location.href=images'.$gid.'
                     }
                 </script>';
     

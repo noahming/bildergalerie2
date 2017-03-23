@@ -9,7 +9,7 @@
 
 <head>
     <meta charset="utf-8"> <!-- Definition des Charsets -->
-    <link rel="stylesheet" href="css/meldung.css"><!-- Einbinden der CSS Datei -->
+    <link rel="stylesheet" href="view/css/meldung.css"><!-- Einbinden der CSS Datei -->
     <!-- <link rel="icon" href="icon.png">--><!-- Icon der Seite -->
     <title>Login</title><!-- Titel der Seite -->
     
@@ -81,7 +81,7 @@
                             
                              if ($_GET['m'] == "4"){
 
-                               echo '<div id="message4"  style="width: 80px; background-color: lightblue; margin-top: 10px;" class="div_message note" ><a class="txt_message" href="?upload">OK</a></div>';
+                               echo '<div id="message4"  style="width: 80px; background-color: lightblue; margin-top: 10px;" class="div_message note" ><a class="txt_message" href="?images">OK</a></div>';
                                
                             }   
                              
