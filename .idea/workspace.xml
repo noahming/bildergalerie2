@@ -2,140 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e978628-f607-4dda-9a4d-80851edebefe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/login.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/shared.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/galerie.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascript/login.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/adminview.php" afterPath="$PROJECT_DIR$/view/adminview.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/allegalerien.php" afterPath="$PROJECT_DIR$/view/allegalerien.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bildAnsicht.php" afterPath="$PROJECT_DIR$/view/bildAnsicht.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bilderanzeigen.php" afterPath="$PROJECT_DIR$/view/bilderanzeigen.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/galeries.css" afterPath="$PROJECT_DIR$/view/css/galeries.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/lib_dbfunctions_backup.php" afterPath="$PROJECT_DIR$/dbfunction backup/lib_dbfunctions_backup.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/login.css" afterPath="$PROJECT_DIR$/view/css/login.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/meldung.css" afterPath="$PROJECT_DIR$/view/css/meldung.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="$PROJECT_DIR$/view/css/stylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/add.png" afterPath="$PROJECT_DIR$/data/icons/add.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/edit.png" afterPath="$PROJECT_DIR$/data/icons/edit.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib_dbfunctions.php" afterPath="$PROJECT_DIR$/model/lib_dbfunctions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/view/login.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meinegalerien.php" afterPath="$PROJECT_DIR$/view/meinegalerien.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meldung.php" afterPath="$PROJECT_DIR$/view/meldung.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/profil.php" afterPath="$PROJECT_DIR$/view/profil.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/1.png" afterPath="$PROJECT_DIR$/data/images/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/10.jpg" afterPath="$PROJECT_DIR$/data/images/10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/10_1.jpg" afterPath="$PROJECT_DIR$/data/images/10_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/10_2.jpg" afterPath="$PROJECT_DIR$/data/images/10_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/10_3.jpg" afterPath="$PROJECT_DIR$/data/images/10_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/10_4.jpg" afterPath="$PROJECT_DIR$/data/images/10_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/11.jpg" afterPath="$PROJECT_DIR$/data/images/11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/11_1.jpg" afterPath="$PROJECT_DIR$/data/images/11_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/11_2.jpg" afterPath="$PROJECT_DIR$/data/images/11_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/12.jpg" afterPath="$PROJECT_DIR$/data/images/12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/12_1.jpg" afterPath="$PROJECT_DIR$/data/images/12_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/12_2.jpg" afterPath="$PROJECT_DIR$/data/images/12_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/13.jpg" afterPath="$PROJECT_DIR$/data/images/13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/13_1.jpg" afterPath="$PROJECT_DIR$/data/images/13_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/13_2.jpg" afterPath="$PROJECT_DIR$/data/images/13_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/13_3.jpg" afterPath="$PROJECT_DIR$/data/images/13_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/13_4.jpg" afterPath="$PROJECT_DIR$/data/images/13_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/13_5.jpg" afterPath="$PROJECT_DIR$/data/images/13_5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/14.jpg" afterPath="$PROJECT_DIR$/data/images/14.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/14_1.jpg" afterPath="$PROJECT_DIR$/data/images/14_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/14_2.jpg" afterPath="$PROJECT_DIR$/data/images/14_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/15.jpg" afterPath="$PROJECT_DIR$/data/images/15.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/15_1.jpg" afterPath="$PROJECT_DIR$/data/images/15_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/16.jpg" afterPath="$PROJECT_DIR$/data/images/16.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/16_1.jpg" afterPath="$PROJECT_DIR$/data/images/16_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17.jpg" afterPath="$PROJECT_DIR$/data/images/17.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_1.jpg" afterPath="$PROJECT_DIR$/data/images/17_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_10.jpg" afterPath="$PROJECT_DIR$/data/images/17_10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_11.jpg" afterPath="$PROJECT_DIR$/data/images/17_11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_2.jpg" afterPath="$PROJECT_DIR$/data/images/17_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_3.jpg" afterPath="$PROJECT_DIR$/data/images/17_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_4.jpg" afterPath="$PROJECT_DIR$/data/images/17_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_5.jpg" afterPath="$PROJECT_DIR$/data/images/17_5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_6.jpg" afterPath="$PROJECT_DIR$/data/images/17_6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_7.jpg" afterPath="$PROJECT_DIR$/data/images/17_7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_8.jpg" afterPath="$PROJECT_DIR$/data/images/17_8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/17_9.jpg" afterPath="$PROJECT_DIR$/data/images/17_9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/18.jpg" afterPath="$PROJECT_DIR$/data/images/18.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/18_1.jpg" afterPath="$PROJECT_DIR$/data/images/18_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/18_2.jpg" afterPath="$PROJECT_DIR$/data/images/18_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19.jpg" afterPath="$PROJECT_DIR$/data/images/19.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_1.jpg" afterPath="$PROJECT_DIR$/data/images/19_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_10.jpg" afterPath="$PROJECT_DIR$/data/images/19_10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_2.jpg" afterPath="$PROJECT_DIR$/data/images/19_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_3.jpg" afterPath="$PROJECT_DIR$/data/images/19_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_4.jpg" afterPath="$PROJECT_DIR$/data/images/19_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_5.jpg" afterPath="$PROJECT_DIR$/data/images/19_5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_6.jpg" afterPath="$PROJECT_DIR$/data/images/19_6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_7.jpg" afterPath="$PROJECT_DIR$/data/images/19_7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_8.jpg" afterPath="$PROJECT_DIR$/data/images/19_8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/19_9.jpg" afterPath="$PROJECT_DIR$/data/images/19_9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/2.jpg" afterPath="$PROJECT_DIR$/data/images/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/20.jpg" afterPath="$PROJECT_DIR$/data/images/20.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/20_1.jpg" afterPath="$PROJECT_DIR$/data/images/20_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/20_2.jpg" afterPath="$PROJECT_DIR$/data/images/20_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/20_3.jpg" afterPath="$PROJECT_DIR$/data/images/20_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/20_4.jpg" afterPath="$PROJECT_DIR$/data/images/20_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/20_5.jpg" afterPath="$PROJECT_DIR$/data/images/20_5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/21.jpg" afterPath="$PROJECT_DIR$/data/images/21.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/21_1.jpg" afterPath="$PROJECT_DIR$/data/images/21_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/21_2.jpg" afterPath="$PROJECT_DIR$/data/images/21_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/21_3.jpg" afterPath="$PROJECT_DIR$/data/images/21_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/21_4.jpg" afterPath="$PROJECT_DIR$/data/images/21_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/21_5.jpg" afterPath="$PROJECT_DIR$/data/images/21_5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/21_6.jpg" afterPath="$PROJECT_DIR$/data/images/21_6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/21_7.jpg" afterPath="$PROJECT_DIR$/data/images/21_7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/2_1.jpg" afterPath="$PROJECT_DIR$/data/images/2_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/2_2.jpg" afterPath="$PROJECT_DIR$/data/images/2_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/4.jpg" afterPath="$PROJECT_DIR$/data/images/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/4_1.jpg" afterPath="$PROJECT_DIR$/data/images/4_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/5.jpg" afterPath="$PROJECT_DIR$/data/images/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/5_1.jpg" afterPath="$PROJECT_DIR$/data/images/5_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/6.jpg" afterPath="$PROJECT_DIR$/data/images/6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/6_1.jpg" afterPath="$PROJECT_DIR$/data/images/6_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/7.jpg" afterPath="$PROJECT_DIR$/data/images/7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/7_1.jpg" afterPath="$PROJECT_DIR$/data/images/7_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/7_2.jpg" afterPath="$PROJECT_DIR$/data/images/7_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/8.jpg" afterPath="$PROJECT_DIR$/data/images/8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/8.png" afterPath="$PROJECT_DIR$/data/images/8.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/8_1.jpg" afterPath="$PROJECT_DIR$/data/images/8_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/8_1.png" afterPath="$PROJECT_DIR$/data/images/8_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/8_2.jpg" afterPath="$PROJECT_DIR$/data/images/8_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/8_3.jpg" afterPath="$PROJECT_DIR$/data/images/8_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/9.jpg" afterPath="$PROJECT_DIR$/data/images/9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/9_1.jpg" afterPath="$PROJECT_DIR$/data/images/9_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/9_2.jpg" afterPath="$PROJECT_DIR$/data/images/9_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/9babc8b5-e5d6-4c0b-99ff-f771d659b947.jpg" afterPath="$PROJECT_DIR$/data/images/9babc8b5-e5d6-4c0b-99ff-f771d659b947.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Chrysanthemum.jpg" afterPath="$PROJECT_DIR$/data/images/Chrysanthemum.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Desert.jpg" afterPath="$PROJECT_DIR$/data/images/Desert.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Hydrangeas.jpg" afterPath="$PROJECT_DIR$/data/images/Hydrangeas.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Hydrangeas_1.jpg" afterPath="$PROJECT_DIR$/data/images/Hydrangeas_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Jellyfish.jpg" afterPath="$PROJECT_DIR$/data/images/Jellyfish.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Jellyfish_1.jpg" afterPath="$PROJECT_DIR$/data/images/Jellyfish_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Jellyfish_2.jpg" afterPath="$PROJECT_DIR$/data/images/Jellyfish_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Jellyfish_3.jpg" afterPath="$PROJECT_DIR$/data/images/Jellyfish_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Jellyfish_4.jpg" afterPath="$PROJECT_DIR$/data/images/Jellyfish_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Jellyfish_5.jpg" afterPath="$PROJECT_DIR$/data/images/Jellyfish_5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Koala.jpg" afterPath="$PROJECT_DIR$/data/images/Koala.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Koala_1.jpg" afterPath="$PROJECT_DIR$/data/images/Koala_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Koala_2.jpg" afterPath="$PROJECT_DIR$/data/images/Koala_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Lighthouse.jpg" afterPath="$PROJECT_DIR$/data/images/Lighthouse.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Lighthouse_1.jpg" afterPath="$PROJECT_DIR$/data/images/Lighthouse_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Penguins.jpg" afterPath="$PROJECT_DIR$/data/images/Penguins.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/Penguins_1.jpg" afterPath="$PROJECT_DIR$/data/images/Penguins_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/SkateForecast-1024x517.jpg" afterPath="$PROJECT_DIR$/data/images/SkateForecast-1024x517.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/anonymous-supreme-dark-watch-1920x1080-52538.jpg" afterPath="$PROJECT_DIR$/data/images/anonymous-supreme-dark-watch-1920x1080-52538.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/upload/gay-pride-parades-8.jpg" afterPath="$PROJECT_DIR$/data/images/gay-pride-parades-8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/js/bootstrap.js" afterPath="$PROJECT_DIR$/scripts/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/scripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/dispatcher.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bildupload_ausfuehren.php" afterPath="$PROJECT_DIR$/bildupload_ausfuehren.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/header.php" afterPath="$PROJECT_DIR$/view/header.php" />
     </list>
@@ -155,8 +23,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -238,13 +106,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="802">
               <caret line="49" column="2" lean-forward="false" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
               <folding>
                 <marker date="1490274010194" expanded="false" signature="444:459" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/control/dispatcher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="92" column="2" lean-forward="false" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+              <folding>
+                <marker date="1490275363095" expanded="true" signature="2067:2080" ph="..." />
+                <marker date="1490275363095" expanded="true" signature="2307:2320" ph="..." />
+                <marker date="1490275363095" expanded="true" signature="2452:2465" ph="..." />
+                <marker date="1490275363095" expanded="true" signature="2601:2614" ph="..." />
               </folding>
             </state>
           </provider>
@@ -280,24 +163,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <marker date="1490273522342" expanded="true" signature="274:287" ph="..." />
-                <marker date="1490273522342" expanded="true" signature="379:392" ph="..." />
-                <marker date="1490273522342" expanded="true" signature="555:568" ph="..." />
-                <marker date="1490273522342" expanded="true" signature="662:675" ph="..." />
-                <marker date="1490273522342" expanded="true" signature="773:786" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registrieren.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/registrieren.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1324">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -314,10 +181,11 @@
         <option value="$PROJECT_DIR$/view/galerie.php" />
         <option value="$PROJECT_DIR$/view/adminview.php" />
         <option value="$PROJECT_DIR$/view/meldung.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/view/header.php" />
         <option value="$PROJECT_DIR$/view/login.php" />
         <option value="$PROJECT_DIR$/control/login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/view/header.php" />
+        <option value="$PROJECT_DIR$/control/dispatcher.php" />
       </list>
     </option>
   </component>
@@ -492,12 +360,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489669408584</updated>
       <workItem from="1489669410014" duration="1548000" />
-      <workItem from="1490271619298" duration="2391000" />
+      <workItem from="1490271619298" duration="3743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3939000" />
+    <option name="totallyTimeSpent" value="5291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -529,7 +397,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -645,28 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1490273522342" expanded="true" signature="274:287" ph="..." />
-            <marker date="1490273522342" expanded="true" signature="379:392" ph="..." />
-            <marker date="1490273522342" expanded="true" signature="555:568" ph="..." />
-            <marker date="1490273522342" expanded="true" signature="662:675" ph="..." />
-            <marker date="1490273522342" expanded="true" signature="773:786" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/galerie.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -743,12 +591,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/control/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="802">
           <caret line="49" column="2" lean-forward="false" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
           <folding>
             <marker date="1490274010194" expanded="false" signature="444:459" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/dispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="92" column="2" lean-forward="false" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+          <folding>
+            <marker date="1490275363095" expanded="true" signature="2067:2080" ph="..." />
+            <marker date="1490275363095" expanded="true" signature="2307:2320" ph="..." />
+            <marker date="1490275363095" expanded="true" signature="2452:2465" ph="..." />
+            <marker date="1490275363095" expanded="true" signature="2601:2614" ph="..." />
           </folding>
         </state>
       </provider>
