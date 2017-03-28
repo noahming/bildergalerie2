@@ -26,7 +26,7 @@ function connection_ok($mysqli) {
 //*************************************************************************//
 
 // Überprüft das Passwort eines Benutzers in der Datenbank
-function is_auth($mysqli, $email, $password) {
+function pwCorrect($mysqli, $email, $password) {
         $email = $mysqli->escape_string($email);
         $password = $mysqli->escape_string($password);
 
@@ -59,13 +59,13 @@ function userExist($mysqli, $email)
 }
 
 //ändert das Passwort nach belieben
-function update_user($mysqli, $id, $password) {
+function pwUpdate($mysqli, $id, $password) {
     $password = $mysqli->escape_string($password);
     $mysqli->query("UPDATE benutzer SET passwort='$password' where id=$id");
     
 }
 //neuer Benutzer wird erstellt
-function insert_user($mysqli, $email, $passwd) {
+function userInsert($mysqli, $email, $passwd) {
     $email = $mysqli->escape_string($email);
     $passwd = $mysqli->escape_string($passwd);
     $mysqli->query("INSERT INTO benutzer(email, passwort) VALUES ('$email', '$passwd');"); 
@@ -75,7 +75,7 @@ function insert_user($mysqli, $email, $passwd) {
 }
 
 //gibt die Namen der existierenden User aus
-function select_users($mysqli) {
+function allUsers($mysqli) {
 
     if ($result = $mysqli->query("SELECT email FROM benutzer")) {
 
@@ -91,7 +91,7 @@ function select_users($mysqli) {
                 }
 }
 //gibt user mit bestimmter email adresse aus (brauchen wir das?)
-function select_user_by_email($mysqli, $email) {
+function userByEmail($mysqli, $email) {
     $email = $mysqli->escape_string($email);
     if ($result = $mysqli->query("SELECT * FROM benutzer WHERE email = '$email'")) {
 
@@ -106,7 +106,9 @@ function select_user_by_email($mysqli, $email) {
                     return NULL;
                 }
 }
-function delete_user($mysqli, $uid)
+
+//Löscht user anhand von $uid
+function userDelete($mysqli, $uid)
 {
     $result = $mysqli->query("SELECT id FROM galerie where uid = '$uid' LIMIT 1;");
     $id = mysqli_fetch_array($result);
@@ -119,7 +121,7 @@ function delete_user($mysqli, $uid)
 //                        Tabelle bilder                                   //
 //*************************************************************************//
 // Gibt ein Array der neuesten Einträge zurück.
-function select_images($mysqli) {
+function newImages($mysqli) {
 
     if ($result = $mysqli->query("SELECT * FROM bilder")) {
 
@@ -136,9 +138,24 @@ function select_images($mysqli) {
 }
 
 
+function imagesByUser($mysqli, $uid ,$gid) {
+
+    if ($result = $mysqli->query("SELECT * FROM bilder WHERE gid = $gid")) {
+
+        $entries = array();
+        while ($entry = mysqli_fetch_array($result)) {
+            array_push($entries, $entry);
+        }
+        $result->close();
+        return $entries;
+    }
+    else {
+        return NULL;
+    }
+}
 
 // Gibt ein Array der Bilder aus einerGalerie zurück.
-function select_images_by_gid($mysqli, $gid) {
+function imagesByUserGalery($mysqli, $gid) {
 
     if ($result = $mysqli->query("SELECT * FROM bilder WHERE gid = $gid")) {
 
@@ -154,7 +171,7 @@ function select_images_by_gid($mysqli, $gid) {
     }
 }
 //gibt bilder anhand von id zurück
-function select_images_by_bid($mysqli, $bid) {
+function imageById($mysqli, $bid) {
 
     if ($result = $mysqli->query("SELECT * FROM bilder WHERE id = $bid")) {
 
@@ -171,7 +188,7 @@ function select_images_by_bid($mysqli, $bid) {
 }
 
 // zum löschen der Einträge
-function delete_entry($mysqli, $id)
+function deleteImage($mysqli, $id)
 {
 	$mysqli->query("DELETE FROM bilder WHERE id = '$id'");
 }

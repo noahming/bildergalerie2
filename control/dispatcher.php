@@ -1,5 +1,5 @@
 <?php
-require_once 'lib/Validator.php';
+require_once 'model/connection.php';
 
 
 /**
@@ -22,9 +22,11 @@ class Dispatcher
      */
     function loadDefault()
     {
-        require_once "control/PictureController.php";
+        require_once "view/index.php";
+        /*
         $cont = new PictureController();
         $cont->show();
+        */
     }
 
     /**
@@ -44,12 +46,8 @@ class Dispatcher
          * Prüefe ob POST oder GET Request.
          * Hole die Parameter für Controller und dessen Funktion
          */
+
         if ($_SERVER['REQUEST_METHOD'] === "POST") {
-            if (Validator::validatePostRequest()) {
-                //HACK ATTACK
-                header("Location:hack.php");
-                return;
-            }
             if (isset($_POST["cont"])) {
                 $controller = $_POST["cont"];
             }
@@ -64,33 +62,7 @@ class Dispatcher
             if (isset($_GET["action"])) {
                 $action = $_GET["action"];
             }
-/*
-            if (isset($_GET['logout'])) {
-                session_destroy();
-                header('Location: index.php');
-                die();
-            } elseif (isset($_GET['profil'])) {
-                echo '<div style="height:160px;"></div>';
-                include 'profil.php';
-            } elseif (isset($_GET['home'])) {
-                include 'meinegalerien.php';
-            } elseif (isset($_GET['neuegalerie'])) {
-                echo '<div style="height:160px;"></div>';
-                include 'galerie.php';
-            } elseif (isset($_GET['upload'])) {
-                echo '<div style="height:160px;"></div>';
-                include 'bildupload.php';
-            } elseif (isset($_GET['galerie'])) {
-                echo '<div style="height:160px;"></div>';
-                include 'galerie.php';
-            } elseif (isset($_GET['all'])) {
-                include 'allegalerien.php';
-            } elseif (isset($_GET['bilderanzeigen'])) {
-                include 'bilderanzeigen.php';
-            } else {
-                include 'meinegalerien.php';
-            }
-*/
+  
         }
         // Falls kein Controller Parameter mitgegeben wurde, Standart laden.
         if (empty($controller)) {
@@ -99,11 +71,13 @@ class Dispatcher
             //Controller instanzieren und ensprechende Funktion aufrufen.
             $fullControllerName = ucfirst($controller) . "Controller";
             if (file_exists("control/$fullControllerName.php")) {
-                require_once "control/$fullControllerName.php";
+                require_once "view/$fullControllerName.php";
+              /**
                 $controllerObject = new $fullControllerName();
                 if (method_exists($controllerObject, $action)) {
                     $controllerObject->$action();
                 }
+                **/
             }
         }
     }
