@@ -62,16 +62,16 @@ class Dispatcher
             if (isset($_GET["action"])) {
                 $action = $_GET["action"];
             }
-  
+
         }
         // Falls kein Controller Parameter mitgegeben wurde, Standart laden.
-        if (empty($controller)) {
+        if (empty($action)) {
             $this->loadDefault();
         } else {
             //Controller instanzieren und ensprechende Funktion aufrufen.
-            $fullControllerName = ucfirst($controller) . "Controller";
+            $fullControllerName = ucfirst($action) . "Controller";
             if (file_exists("control/$fullControllerName.php")) {
-                require_once "view/$fullControllerName.php";
+                require_once "control/$fullControllerName.php";
               /**
                 $controllerObject = new $fullControllerName();
                 if (method_exists($controllerObject, $action)) {

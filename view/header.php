@@ -1,18 +1,18 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar">
         <div class="navbar-inner">
-            <a class="brand" href="#">NoahsSuperSite</a>
             <ul>
                 <?php
+                echo ("<li><a class='nav' href='?action=home'>Home</a></li>");
                 if (isset($_SESSION['uid'])) {
-                    echo("      <li><a class='nav' href='?home'>Home</a></li>
-                            <li><a class='nav' href='?all'>Alle</a></li>
-                            <li><a class='nav' href='?search'>Suche</a></li>
-                            <li><a class='nav' href='?profil'>Profil</a></li>
-                            <li><a class='nav' href='?logout'>logout</a></li>");
+                    echo("      
+                        <li><a class='nav' href='?action=all'>Alle</a></li>
+                        <li><a class='nav' href='?action=search'>Suche</a></li>
+                        <li><a class='nav' href='?action=profil'>Profil</a></li>
+                        <li><a class='nav' href='?action=logout'>logout</a></li>");
                 }
                 else{
-                    echo("<li><a class='nav' href='?cont=login'>login</a></li>");
+                    echo("<li><a class='nav' href='?action=login'>login</a></li>");
                 }
                 ?>
             </ul>

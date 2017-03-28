@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once 'view/login.php';
 
 if (isset($_POST['btnRegistration'])) {
     $email = $_POST['registrationEmail'];
