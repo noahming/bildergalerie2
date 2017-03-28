@@ -1,9 +1,5 @@
 
-<html lang="de">
-<head>
-    <title>Bildergalerie</title>
-</head>
-<body>
+
 <div id="contentContainer"><!-- umschliesst alle Inhalte des Logins / der Registrierung -->
 
     <button id="btnHideRegistration" onmouseup="btnHideRegistration()">
@@ -66,5 +62,3 @@
         </form><!-- Ende RegisterFormular -->
 
     </div>
-</body>
-</html>

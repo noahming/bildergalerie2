@@ -2,11 +2,14 @@ body{
     margin:0;
     font-family: sans-serif;
 }
-header {
+#header {
     width: 100%;
     height: 58px;
     position: fixed;
     background-color: black;
+}
+#headerMargin{
+height: 100px;
 }
 /* Definiert das Aussehen des Formulars */
 form {
@@ -25,7 +28,7 @@ button {
     cursor: pointer;
 }
 #contentContainer {
-    margin: auto;
+    margin: auto 100px auto auto;
     height: 500px;
     width: 500px;
     background-color:  #eae672;

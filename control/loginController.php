@@ -1,4 +1,7 @@
+<script type='text/javascript' src='scripts/login.js'></script>
+<link rel='stylesheet' href='view/css/login.css'/>
 <?php
+require_once 'model/user.php';
 require_once 'view/login.php';
 
 if (isset($_POST['btnRegistration'])) {
@@ -8,7 +11,7 @@ if (isset($_POST['btnRegistration'])) {
     $userExists = userExist($mysqli, $email);
     if (!$userExists) {
         if ($password == $password2) {
-            insert_user($mysqli, $email, $password);
+            userInsert($mysqli, $email, $password);
         }
     } else {
         echo("<a class=\"validationError\" style='display: inline'></br>Es gibt bereits ein Benutzerkonto mit der von ihnen angegebenen Email Adresse</a>
@@ -16,22 +19,18 @@ if (isset($_POST['btnRegistration'])) {
     }
 }
 
-
-
-
 /*wenn button mit name regist gedrückt wird, wird ausgeführt*/
 if (isset($_POST['btnLogin'])) {
     $email = $_POST['email'];
     $password = md5($_POST['password']);
     $emailCorrect = userExist($mysqli,$email);
-    $passwordCorrect = is_auth($mysqli, $email, $password);
+    $passwordCorrect = pwCorrect($mysqli, $email, $password);
     if($emailCorrect){
         if ($passwordCorrect){
-            echo 'yeah';
             $_SESSION['email'] = $email;
-            $user = select_user_by_email($mysqli,$email);
+            $user = userByEmail($mysqli,$email);
             $_SESSION['uid'] = $user[0]['id'];
-            header('Location: index.php');
+            $_GET['action'] = "login";
 
         }
         else{
@@ -44,7 +43,4 @@ if (isset($_POST['btnLogin'])) {
 
     }
 }
-
-
-
 ?>
