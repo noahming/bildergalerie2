@@ -28,8 +28,9 @@ button {
     cursor: pointer;
 }
 #contentContainer {
-    margin: auto 100px auto auto;
-    height: 500px;
+    margin: auto auto 50px auto;
+    padding: 20px;
+    height: auto;
     width: 500px;
     background-color:  #eae672;
     box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);

@@ -47,7 +47,7 @@ function btnHideRegistration() {
     document.getElementById("loginForm").style.display = "block";
     document.getElementById('contentContainer').style.background = "#eae672";
 };
-
+/*
 function emailCheck() {
     var email;
     var regexEmail = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/;
@@ -77,7 +77,7 @@ function passwordCheck(password) {
     }
     else {
         password = document.forms["registerForm"]["password"].value;
-    }*/
+    }
 
     //Kleinbuchstaben enthalten?
     if (password.match(/[a-z]/)) {
@@ -162,4 +162,4 @@ else{
 
     }
 }
-
+*/

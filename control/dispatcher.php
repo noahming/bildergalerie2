@@ -1,7 +1,11 @@
+
+<link rel='stylesheet' href='view/css/login.css'/>
+<link rel='stylesheet' href='view/css/index.css'/>
+<link rel='stylesheet' href='view/css/galeries.css'/>
 <?php
-
-
-
+session_start();
+require_once 'view/header.php';
+require_once 'model/connection.php';
 
 /**
  * Diese Klasse stellt den Dispatcher der Webseite dar.
@@ -17,17 +21,12 @@
  */
 class Dispatcher
 {
-
     /**
      * Standart Aufruf ohne Request Parameter
      */
     function loadDefault()
     {
         require_once "view/index.php";
-        /*
-        $cont = new PictureController();
-        $cont->show();
-        */
     }
 
     /**
@@ -37,16 +36,12 @@ class Dispatcher
     function dispatch()
     {
 
-
         $controller = "";
         $action = "";
-
-
-
         /**
          * Prüefe ob POST oder GET Request.
          * Hole die Parameter für Controller und dessen Funktion
-         */
+
 
         if ($_SERVER['REQUEST_METHOD'] === "POST") {
             if (isset($_POST["cont"])) {
@@ -56,6 +51,7 @@ class Dispatcher
                 $action = $_POST["action"];
             }
         } else if ($_SERVER['REQUEST_METHOD'] === "GET") {
+         */
 
             if (isset($_GET["cont"])) {
                 $controller = $_GET["cont"];
@@ -63,25 +59,26 @@ class Dispatcher
             if (isset($_GET["action"])) {
                 $action = $_GET["action"];
             }
+        /*}*/
 
-        }
-        // Falls kein Controller Parameter mitgegeben wurde, Standart laden.
-        if (empty($action)) {
-            $this->loadDefault();
-        } else {
-            //Controller instanzieren und ensprechende Funktion aufrufen.
-            $fullControllerName = ucfirst($action) . "Controller";
-            if (file_exists("control/$fullControllerName.php")) {
-                require_once "control/$fullControllerName.php";
-              /**
-                $controllerObject = new $fullControllerName();
-                if (method_exists($controllerObject, $action)) {
-                    $controllerObject->$action();
+
+            // Falls kein Controller Parameter mitgegeben wurde, Standart laden.
+            if (empty($controller)) {
+                $this->loadDefault();
+            } else {
+                //Controller instanzieren und ensprechende Funktion aufrufen.
+                $fullControllerName = ucfirst($controller) . "Controller";
+                if (file_exists("control/$fullControllerName.php")) {
+                    require_once "control/$fullControllerName.php";
+
+                    $controllerObject = new $fullControllerName();
+                    if (method_exists($controllerObject, $action)) {
+                        $controllerObject->$action();
+                    }
+
                 }
-                **/
             }
         }
-    }
 
 
 }

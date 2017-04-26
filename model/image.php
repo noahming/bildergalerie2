@@ -1,8 +1,4 @@
 <?php
-//*************************************************************************//
-//                        Tabelle bilder                                   //
-//*************************************************************************//
-// Gibt ein Array der neuesten Einträge zurück.
 function newImages($mysqli) {
 
     if ($result = $mysqli->query("SELECT * FROM bilder")) {
@@ -37,7 +33,7 @@ function imagesByUser($mysqli, $uid ,$gid) {
 }
 
 // Gibt ein Array der Bilder aus einerGalerie zurück.
-function imagesByUserGalery($mysqli, $gid) {
+function imagesByGalery($mysqli, $gid) {
 
     if ($result = $mysqli->query("SELECT * FROM bilder WHERE gid = $gid")) {
 

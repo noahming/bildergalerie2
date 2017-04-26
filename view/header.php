@@ -1,4 +1,3 @@
-
 <link rel='stylesheet' href='view/css/index.css'/>
 <div id="header">
     <header>
@@ -6,15 +5,16 @@
 
             <ul>
                 <?php
-                echo("<li><a class='nav' href='?action=home'>Home</a></li>");
+                echo("<li><a class='nav' href='?cont=Galery&action=allGaleries'>Home</a></li>");
                 if (isset($_SESSION['uid'])) {
                     echo("      
-                        <li><a class='nav' href='?action=all'>Alle</a></li>
-                        <li><a class='nav' href='?action=search'>Suche</a></li>
-                        <li><a class='nav' href='?action=profil'>Profil</a></li>
-                        <li><a class='nav' href='?action=logout'>logout</a></li>");
+                        <li><a class='nav' href='?cont=Galery&action=myGaleries'>MyGaleries</a></li>
+                        <li><a class='nav' href='?cont=Galery&action=addGalery'>Add Galery</a></li>
+                        <li><a class='nav' href='?cont=Search'>Suche</a></li>
+                        <li><a class='nav' href='?cont=Profil'>Profil</a></li>
+                        <li><a class='nav' href='?cont=Login&action=logout'>Logout</a></li>");
                 } else {
-                    echo("<li><a class='nav' href='?action=login'>login</a></li>");
+                    echo("<li><a class='nav' href='?cont=Login'>login</a></li>");
                 }
                 ?>
             </ul>

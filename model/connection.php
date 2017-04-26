@@ -1,18 +1,23 @@
 <?php
 
 //stellt die Verbingung mit der DB her
-function make_connection()
+function makeConnection()
 {
     $servername = "localhost";
     $username = "bildergalerie";
     $password = "gibbiX12345";
     $dbname = "bildergalerie";
-    $conn = new mysqli($servername, $username, $password,$dbname);
-    return $conn;
+    $mysqli = new mysqli($servername, $username, $password,$dbname);
+    if (connectionOk($mysqli)){
+        return $mysqli;
+    }
+    else{
+        echo 'Your Db connection is invalid';
+    }
 }
 
 // Überprüfen ob DB-Verbindung i.O. ist
-function connection_ok($mysqli) {
+function connectionOk($mysqli) {
     if ($mysqli->connect_errno) {
         return false;
     }
